@@ -1,11 +1,14 @@
 # 🤖 4-Servo Motor Control — Arduino Uno Tinkercad
 
-## 📋 Overview
-This project programs an Arduino Uno to control 4 servo motors simultaneously. Each servo performs a sweep motion for a fixed duration, then holds at a neutral position.
+# 🌟 Task Instructions:
 
-## 🎯 Task
-1. Run all 4 servos using sweep motion (0°→180°→0°) for **2 seconds**.
-2. After 2 seconds, stop and hold all servos at **90°**.
+Program 4 servo motors to perform the following actions in the code :
+
+1. Run using the Sweep example for 2 seconds.
+
+2. After that, make all the motors hold at 90 degrees.
+
+# ✨ The solution:
 
 ## 🔧 Hardware
 | Component     | Quantity |

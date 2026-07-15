@@ -18,7 +18,7 @@ Program 4 servo motors to perform the following actions in the code :
 
 ## 🔌 Wiring
 
-| Servo | Signal (orange) | Power (red) | Ground (black) |
+| Servo | Signal (gree) | Power (red) | Ground (black) |
 |-------|------------------|-------------|-----------------|
 | 1     | Pin 9            | 5V          | GND             |
 | 2     | Pin 10           | 5V          | GND             |
@@ -44,7 +44,7 @@ void setup() {
 
   unsigned long startTime = millis();
 
-  // Sweep motion for 2 seconds
+  // Run for 2 seconds
   while (millis() - startTime < 2000) {
     for (int pos = 0; pos <= 180; pos += 1) {
       servo1.write(pos);
@@ -62,7 +62,7 @@ void setup() {
     }
   }
 
-  // Hold all servos at 90 degrees
+  // After sweeping, hold all motors at 90 degrees
   servo1.write(90);
   servo2.write(90);
   servo3.write(90);
@@ -70,7 +70,7 @@ void setup() {
 }
 
 void loop() {
-  // Nothing to repeat — servos remain at 90°
+  // motors stay at 90°
 }
 ```
 
@@ -80,16 +80,9 @@ void loop() {
 ## 🎬 Demo
 A short simulation video demonstrating the sweep-then-hold behavior is included: [`demo.mp4`](demo.mp4)
 
-## ▶️ How to Run (Tinkercad)
+## ▶️ How to Run Tinkercad
 1. Open [Tinkercad Circuits](https://www.tinkercad.com/) → **Create** → **Circuits**.
 2. Add an **Arduino Uno R3** and **4 servo motors**.
 3. Wire each servo according to the table above.
 4. Open the **Code** editor, switch to **Text** mode, and paste the code above.
 5. Click **Start Simulation**.
-
-## ✅ Expected Result
-- ✅ All 4 servos sweep back and forth for 2 seconds.
-- ✅ After 2 seconds, all servos stop and hold steady at 90°.
-
-## 👤 Author
-Prepared as part of a servo motor control exercise using Arduino and Tinkercad.

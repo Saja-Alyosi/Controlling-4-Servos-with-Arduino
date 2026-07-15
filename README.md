@@ -18,7 +18,7 @@ Program 4 servo motors to perform the following actions in the code :
 
 ## 🔌 Wiring
 
-| Servo | Signal (gree) | Power (red) | Ground (black) |
+| Servo | Signal (green) | Power (red) | Ground (black) |
 |-------|------------------|-------------|-----------------|
 | 1     | Pin 9            | 5V          | GND             |
 | 2     | Pin 10           | 5V          | GND             |

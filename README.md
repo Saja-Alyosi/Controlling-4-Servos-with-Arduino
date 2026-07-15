@@ -78,7 +78,7 @@ void loop() {
 ![Circuit diagram](circuit.png)
 
 ## 🎬 Demo
-A simulation video: [`demo.mp4`](demo.mp4)
+A simulation video: [`video.mp4`](video.mp4)
 
 ## ▶️ How to Run Tinkercad
 1. Open [Tinkercad Circuits](https://www.tinkercad.com/) → **Create** → **Circuits**.

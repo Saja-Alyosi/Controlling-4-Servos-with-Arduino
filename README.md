@@ -78,7 +78,7 @@ void loop() {
 ![Circuit diagram](circuit.png)
 
 ## 🎬 Demo
-A short simulation video demonstrating the sweep-then-hold behavior is included: [`demo.mp4`](demo.mp4)
+A simulation video: [`demo.mp4`](demo.mp4)
 
 ## ▶️ How to Run Tinkercad
 1. Open [Tinkercad Circuits](https://www.tinkercad.com/) → **Create** → **Circuits**.
